@@ -1,6 +1,6 @@
 # Paguina de formato de encusta (Survey Form).
 
-Paguina realizada para el curso responsive web design de www.freecodecamp.com, solo tiene los criterios evaluados y nada mas, se puede visualizar en:  
+Paguina realizada para el curso responsive web design de www.freecodecamp.com, solo tiene los criterios evaluados y nada mas, se puede visualizar en: https://alejandrorodrigueza.github.io/freecodecamo-surveyForm/ 
 
 ## Criterios de la evaluacion:
 
