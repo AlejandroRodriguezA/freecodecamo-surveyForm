@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="encuesta">
+        <div class="header">
+            <h1 id="title">Titulo</h1>
+            <p id="description">Descripcion </p>
+        </div>
+        <form action="" id="survey-form">
+            
+                
+            <label for="name" id="name-label">Nombre:</label>
+            <input type="text" id="name" placeholder="Introduce tu Nombre" required>
+
+            <label for="email" id="email-label">Email:</label>
+            <input type="email" id="email" placeholder="Introduce tu Email"  required>
+        
+            <label for="number" id="number-label">Edad:</label>
+            <input type="number" id="number" min="18" max="110" placeholder="Edad" required> 
+        
+              
+            <div>
+                <hr>
+                <p style=";">Que cargo tienes?</p>
+                <select id="dropdown">
+                
+                    <option value="" selected disabled>Select Value</option>
+                    <option value="A">Opcion A</option>
+                    <option value="B">Opcion B</option>
+                    <option value="C">Opcion C</option>
+                    <option value="n/a">N/A</option>
+                </select>
+            </div>
+            
+        
+    
+            <div class="opcionesRadio">
+                <hr>
+                <p>Escoge una opcion:</p>
+                <input type="radio" id="Opcion 1" name="radioButton" value="1">
+                <label for="Opcion 1">Opcion 1</label>
+                <div>
+                    <input type="radio" id="Opcion 2" name="radioButton" value="2">
+                    <label for="Opcion 2">Opcion 2</label>
+                </div>
+            </div>
+
+
+            <div class="opcionesCheckbox">
+                <hr>
+                <p>Escoge una o varias opciones:</p>
+                <input type="checkbox" id="Opcion 1" name="radioButton" value="1">
+                <label for="Opcion 1">Opcion 1</label>
+                <div>
+                    <input type="checkbox" id="Opcion 2" name="radioButton" value="2">
+                    <label for="Opcion 2">Opcion 2</label>
+                </div>
+            </div>
+
+           
+
+            <div class="opcionesTextare">
+                <hr>
+                <label for="textArea">Comentarios Adicionales:</label>
+                <br>
+                <textarea id="textArea" name="textArea" form="survey-form" ></textarea>
+                
+            </div>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+        <div class="footer">
+            <p>Paguina hecha por AJ</p>
+        </div>
+    </div>
+</body>
+</html>

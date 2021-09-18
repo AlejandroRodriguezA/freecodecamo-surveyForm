@@ -1,0 +1,132 @@
+* {
+    /* background: black;
+    color: #fff; */
+}
+
+body {
+    
+    
+}
+
+.encuesta {
+    width: 70%;
+    max-width: 600px;
+    padding: 15px;
+    margin:  5vw auto;
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto auto 5%;
+    grid-template-areas:
+        "header"
+        "datos"
+        "footer" ;
+    gap: 10px;
+
+}
+
+.header {
+    grid-area: header;
+    text-align: center;
+    background-color: lightgray;
+}
+
+form {
+    grid-area: datos;
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows: repeat(1,auto);
+    gap: 10px;
+    padding: 10px;
+    
+    /* font-size: 20px; */
+
+}
+
+#survey-form input,label  {
+   
+   
+}
+
+#name-label{
+   
+   
+
+}
+
+#name,#email,#number{
+    /* min-height: 35px;
+    
+    
+    font-size: 15px;*/
+    padding: 5px 15px; 
+    border-radius: 10px;
+    margin-top: -3px;
+   
+    
+}
+
+#email-label {
+
+    
+}
+#email {
+   
+}
+
+#number-label {
+    
+    
+    
+}
+
+#number {
+
+    max-width: 45px;
+    
+    
+    
+}
+
+#dropdown {
+    
+    width: 100%;
+    height: 30px;
+    padding: 5px 15px;
+    border-radius: 5px;
+
+}
+
+hr {
+    opacity: 20%;
+}
+.opcionesRadio {
+ 
+}
+
+.opcionesCheckbox {
+  
+
+}
+
+#submit {
+    justify-self: center;
+    width: 50%;
+    height: 50px;
+
+}
+
+textarea {
+    width:100%;
+    min-height: 150px;
+    padding: 5px 15px; 
+    border-radius: 10px;
+    margin-top: 3px;
+    
+}
+
+.footer {
+    grid-area: footer;
+    font-size: .5em;
+    text-align: right;
+}
